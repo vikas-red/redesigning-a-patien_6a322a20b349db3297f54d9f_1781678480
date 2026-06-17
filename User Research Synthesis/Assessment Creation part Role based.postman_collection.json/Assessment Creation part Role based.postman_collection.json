@@ -1,0 +1,1026 @@
+{
+  "info": {
+    "_postman_id": "30fa4bc1-3b74-4192-81e3-f1734deac77f",
+    "name": "Assessment Creation part Role based",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47495105",
+    "_collection_link": "https://go.postman.co/collection/47495105-30fa4bc1-3b74-4192-81e3-f1734deac77f?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Mongo Response",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2NmJmMWIwY2QwOTYyMzI1NWJmZDU5OTQiLCJpYXQiOjE3NTQ5NjkzMjMsIm5iZiI6MTc1NDk2OTMyMywianRpIjoiMzhmZjE1OWQtNTQ5NS00ZGMyLTk4OTAtMmNiZGM1NTM0YTY2IiwiZXhwIjoxNzU1MzI5MzIzLCJ0eXBlIjoiYWNjZXNzIiwiZnJlc2giOmZhbHNlLCJzdHVkZW50SWQiOiI2NmJmMWIwY2QwOTYyMzI1NWJmZDU5OTQiLCJ3b3Jrc3BhY2VJZCI6IjY4M2VjZDE5NDAzZWRlZmQxZGY1OWY1MyIsImFzc2Vzc21lbnRJZCI6IjY4OTVjY2MyMzQxNzk1NTYzMjZiYzYxNCIsImV4YW1JZCI6IjY4OTVjY2MyMzQxNzk1NTYzMjZiYzYxNCIsInNvcnRuYW1lIjoic2tpbGx3YWxsZXQiLCJleGFtU3RhdHVzIjoiU3RhcnRlZCIsInN0YXJ0ZWRUaW1lIjoiMjAyNS0wOC0xMiAwODo1ODo0My4yNjk5MjgiLCJwcm9qZWN0U3RhdHVzIjoiU2NoZWR1bGVkIiwiaGF2ZUFzc2Vzc21lbnQiOnRydWUsIm90cFZlcmlmaWNhdGlvbiI6ZmFsc2UsInN0dWRlbnRUeXBlIjoidHJvdmVuIn0.vYzz0mmhzIbjnLz_qO8HB8wINkLp89FnenV9SZ_oz14",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://trovenbackend.smartinternz.com/getAllQuestionByAssessmentId",
+          "protocol": "https",
+          "host": [
+            "trovenbackend",
+            "smartinternz",
+            "com"
+          ],
+          "path": [
+            "getAllQuestionByAssessmentId"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Redis Response",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2NmJmMWIwY2QwOTYyMzI1NWJmZDU5OTQiLCJpYXQiOjE3NTQ5NjkzMjMsIm5iZiI6MTc1NDk2OTMyMywianRpIjoiMzhmZjE1OWQtNTQ5NS00ZGMyLTk4OTAtMmNiZGM1NTM0YTY2IiwiZXhwIjoxNzU1MzI5MzIzLCJ0eXBlIjoiYWNjZXNzIiwiZnJlc2giOmZhbHNlLCJzdHVkZW50SWQiOiI2NmJmMWIwY2QwOTYyMzI1NWJmZDU5OTQiLCJ3b3Jrc3BhY2VJZCI6IjY4M2VjZDE5NDAzZWRlZmQxZGY1OWY1MyIsImFzc2Vzc21lbnRJZCI6IjY4OTVjY2MyMzQxNzk1NTYzMjZiYzYxNCIsImV4YW1JZCI6IjY4OTVjY2MyMzQxNzk1NTYzMjZiYzYxNCIsInNvcnRuYW1lIjoic2tpbGx3YWxsZXQiLCJleGFtU3RhdHVzIjoiU3RhcnRlZCIsInN0YXJ0ZWRUaW1lIjoiMjAyNS0wOC0xMiAwODo1ODo0My4yNjk5MjgiLCJwcm9qZWN0U3RhdHVzIjoiU2NoZWR1bGVkIiwiaGF2ZUFzc2Vzc21lbnQiOnRydWUsIm90cFZlcmlmaWNhdGlvbiI6ZmFsc2UsInN0dWRlbnRUeXBlIjoidHJvdmVuIn0.vYzz0mmhzIbjnLz_qO8HB8wINkLp89FnenV9SZ_oz14",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://trovenbackend.smartinternz.com/redis/getAllQuestionByAssessmentId",
+          "protocol": "https",
+          "host": [
+            "trovenbackend",
+            "smartinternz",
+            "com"
+          ],
+          "path": [
+            "redis",
+            "getAllQuestionByAssessmentId"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "nSpaces",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2NmJmMWIwY2QwOTYyMzI1NWJmZDU5OTQiLCJpYXQiOjE3NTcxNDAwNDUsIm5iZiI6MTc1NzE0MDA0NSwianRpIjoiNDBkMjZmMzItYmM2ZC00ODEzLTgyNjctY2ZlM2I0NTdlOTQxIiwiZXhwIjoxNzU3NTAwMDQ1LCJ0eXBlIjoiYWNjZXNzIiwiZnJlc2giOmZhbHNlLCJzdHVkZW50SWQiOiI2NmJmMWIwY2QwOTYyMzI1NWJmZDU5OTQiLCJ3b3Jrc3BhY2VJZCI6IjY4OTQ1MTYwYWJmOTgwMmE4OTM3YTgxMSIsImFzc2Vzc21lbnRJZCI6IjY4YjY3MmZiYzlmMzU4OTNkNWE0OTY0ZSIsImV4YW1JZCI6IjY4YjY3MmZiYzlmMzU4OTNkNWE0OTY0ZSIsInNvcnRuYW1lIjoic2tpbGx3YWxsZXQiLCJleGFtU3RhdHVzIjoiU3RhcnRlZCIsInN0YXJ0ZWRUaW1lIjoiMjAyNS0wOS0wNiAxMTo1NzoyNS4wNTEyNDciLCJwcm9qZWN0U3RhdHVzIjoiU2NoZWR1bGVkIiwiaGF2ZUFzc2Vzc21lbnQiOnRydWUsIm90cFZlcmlmaWNhdGlvbiI6ZmFsc2UsInN0dWRlbnRUeXBlIjoidHJvdmVuIn0.ZuCE2eE6o3Lep2TfutlCIiwVZVNCFXX2y6kyJabN6W8",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://trovenbackend.smartinternz.com/getAllQuestionByAssessmentId?assessmentId",
+          "protocol": "https",
+          "host": [
+            "trovenbackend",
+            "smartinternz",
+            "com"
+          ],
+          "path": [
+            "getAllQuestionByAssessmentId"
+          ],
+          "query": [
+            {
+              "key": "assessmentId",
+              "value": null
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "CreateAssessment",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NjQ0OGM0NDVhZjhkYWRjY2VkODg2NjgiLCJvdHBWZXJpZmllZCI6dHJ1ZSwicm9sZSI6InN1cGVyQWRtaW4iLCJleHAiOjE3Nzg2NDY0ODAsImp0aSI6IjFhMGRlZGM0LWUyNjUtNDViOC04M2JkLWIzMDc3ZDEzZDY5MyJ9.koOZmOgJVLpFFWi2FNbw3jTdweIvKSxYJYDiHzd16to",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"title\": \"MYSQL Assessment\",\r\n  \"category\": \"technology\",\r\n  \"duration\": 60,\r\n  \"currency\": \"INR\",\r\n  \"amount\": 0,\r\n  \"status\": \"active\",\r\n  \"certificateTag\": \"\",\r\n  \"startDate\": \"2026-05-12T06:33:02.33\",\r\n  \"endDate\": \"2026-05-15T06:33:02.33\",\r\n  \"subscriptionType\": \"free\",\r\n  \"credits\": \"0\",\r\n  \"modeOfPayment\": \"free\",\r\n  \"showInSkillBank\": true,\r\n  \"level\": \"easy\",\r\n  \"assessmentId\": \"string\",\r\n  \"workspaceId\": \"string\",\r\n  \"retakeAmount\": \"0\",\r\n  \"passingPercentage\": 65,\r\n  \"description\": \"All the role based assessments are dummy\",\r\n  \"skills\": [\r\n    \"Python\"\r\n  ],\r\n  \"type\": \"roleBased\",\r\n  \"isCloned\": false,\r\n  \"easyMarks\": 1,\r\n  \"mediumMarks\": 2,\r\n  \"hardMarks\": 3,\r\n   \"expertMarks\": 0,\r\n  \"easyCount\": 5,\r\n  \"mediumCount\": 5,\r\n  \"hardCount\": 5,\r\n  \"expertCount\": 0,\r\n  \"proctoringEnabled\": true,\r\n   \"proctoringInfo\": {\r\n    \"copyEnabled\": true,\r\n    \"pasteEnabled\": true,\r\n    \"cameraEnabled\": true,\r\n    \"micEnabled\": true,\r\n    \"faceDectionEnabled\": true,\r\n    \"faceMisMatchEnabled\": true,\r\n    \"faceMisMatchTolerence\": 0,\r\n    \"tabSwitchEnabled\": true,\r\n    \"tabSwitchCountTolerence\": 0,\r\n    \"startWithFullScreen\": true,\r\n    \"aadharVerification\": true,\r\n    \"mobileOtpVerification\": true,\r\n    \"emailOtpVerification\": true,\r\n    \"geoLocationEnabled\": true,\r\n    \"extensionsDetectionEnabled\": true,\r\n    \"screenRecording\": true,\r\n    \"rightClickEnabled\": true,\r\n    \"printScreenEnabled\": true\r\n  },\r\n  \"timeZone\": \"IND\",\r\n  \"showReport\": false,\r\n  \"instructions\": \"role based assesment instructions\",\r\n  \"timePerQuestionEnabled\": true,\r\n  \"showHint\": true,\r\n  \"showCalculator\": true,\r\n  \"randomizeQuestion\": true,\r\n  \"randomizeOptions\": true,\r\n  \"allowedIpAddresses\": [\r\n    \"0.0.0.0\"\r\n  ],\r\n  \"entryAllowedTime\": \"2026-05-12T13:04:24.865Z\",\r\n  \"resultReleaseDate\": \"2026-05-12T13:04:24.865Z\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/admin/dashboard/createAssessment",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "admin",
+            "dashboard",
+            "createAssessment"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update Assessment",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NjQ0OGM0NDVhZjhkYWRjY2VkODg2NjgiLCJvdHBWZXJpZmllZCI6dHJ1ZSwicm9sZSI6InN1cGVyQWRtaW4iLCJleHAiOjE3Nzg3MzIxMjAsImp0aSI6IjVkOTliMGFiLWI2ZDUtNGUzNy1iYzFmLTQ4ZmQ3Y2ZlMGRjYyJ9.UlEqYV4G7xkjXWw_EkWChqS6htRhl8HqfrjNveCOWH4",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"id\":\"6a02b2563945f3b5b7bc6a54\",\r\n  \"randomizeQuestion\": true,\r\n  \"randomizeOptions\": true,\r\n  \"screenRecording\": true,\r\n  \"rightClickEnabled\": true,\r\n  \"printScreenEnabled\": true,\r\n  \"allowedIpAddresses\": [\r\n    \"192.168.68.54\"\r\n  ],\r\n  \"entryAllowedTime\": \"2026-05-12T13:00:51.265Z\",\r\n  \"resultReleaseDate\": \"2026-05-12T13:00:51.265Z\",\r\n  \"category\": \"technology\",\r\n  \"duration\": 60,\r\n  \"currency\": \"INR\",\r\n  \"amount\": 0,\r\n  \"status\": \"active\",\r\n  \"certificateTag\": \"\",\r\n  \"startDate\": \"2026-05-12T06:33:02.33\",\r\n  \"endDate\": \"2026-05-15T06:33:02.33\",\r\n  \"subscriptionType\": \"free\",\r\n  \"credits\": \"0\",\r\n  \"modeOfPayment\": \"free\",\r\n  \"showInSkillBank\": true,\r\n  \"level\": \"easy\",\r\n  \"assessmentId\": \"string\",\r\n  \"workspaceId\": \"string\",\r\n  \"retakeAmount\": \"0\",\r\n  \"passingPercentage\": 65,\r\n  \"description\": \"All the role based assessments are dummy\",\r\n  \"skills\": [\r\n    \"Python\"\r\n  ],\r\n  \"type\": \"roleBased\",\r\n  \"isCloned\": false,\r\n  \"easyMarks\": 1,\r\n  \"mediumMarks\": 2,\r\n  \"hardMarks\": 3,\r\n  \"expertMarks\": 5,\r\n  \"easyCount\": 1,\r\n  \"mediumCount\": 6,\r\n  \"hardCount\": 1,\r\n  \"expertCount\": 1,\r\n  \"proctoringEnabled\": true,\r\n  \"proctoringInfo\": {\r\n    \"copyEnabled\": true,\r\n    \"pasteEnabled\": true,\r\n    \"cameraEnabled\": true,\r\n    \"micEnabled\": true,\r\n    \"faceDectionEnabled\": true,\r\n    \"faceMisMatchEnabled\": true,\r\n    \"faceMisMatchTolerence\": 0,\r\n    \"tabSwitchEnabled\": true,\r\n    \"tabSwitchCountTolerence\": 0,\r\n    \"startWithFullScreen\": true,\r\n    \"aadharVerification\": true,\r\n    \"mobileOtpVerification\": true,\r\n    \"emailOtpVerification\": true,\r\n    \"geoLocationEnabled\": true,\r\n    \"extensionsDetectionEnabled\": true\r\n  },\r\n  \"timeZone\": \"IND\",\r\n  \"showReport\": false,\r\n  \"instructions\": \"role based assesment instructions\",\r\n  \"timePerQuestionEnabled\": true,\r\n  \"showHint\": true,\r\n  \"showCalculator\": true\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/admin/dashboard/updateRoleAssessment",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "admin",
+            "dashboard",
+            "updateRoleAssessment"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "delete Assessment",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NjQ0OGM0NDVhZjhkYWRjY2VkODg2NjgiLCJvdHBWZXJpZmllZCI6dHJ1ZSwicm9sZSI6InN1cGVyQWRtaW4iLCJleHAiOjE3Nzg2NDY0ODAsImp0aSI6IjFhMGRlZGM0LWUyNjUtNDViOC04M2JkLWIzMDc3ZDEzZDY5MyJ9.koOZmOgJVLpFFWi2FNbw3jTdweIvKSxYJYDiHzd16to",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"id\":\"6a03018ce47a379ea5d0d149\",\r\n  \"title\": \"My Assessment plan\",\r\n//   \"category\": \"technology\",\r\n//   \"duration\": 60,\r\n//   \"currency\": \"INR\",\r\n//   \"amount\": 0,\r\n//   \"status\": \"active\",\r\n//   \"certificateTag\": \"\",\r\n//   \"startDate\": \"2026-05-12T06:33:02.33\",\r\n//   \"endDate\": \"2026-05-15T06:33:02.33\",\r\n//   \"subscriptionType\": \"free\",\r\n//   \"credits\": \"0\",\r\n//   \"modeOfPayment\": \"free\",\r\n//   \"showInSkillBank\": true,\r\n//   \"level\": \"easy\",\r\n//   \"assessmentId\": \"string\",\r\n//   \"workspaceId\": \"string\",\r\n//   \"retakeAmount\": \"0\",\r\n//   \"passingPercentage\": 65,\r\n//   \"description\": \"All the role based assessments are dummy\",\r\n//   \"skills\": [\r\n//     \"Python\"\r\n//   ],\r\n  \"type\": \"roleBased\"\r\n//   \"isCloned\": false,\r\n//   \"easyMarks\": 1,\r\n//   \"mediumMarks\": 2,\r\n//   \"hardMarks\": 3,\r\n//   \"easyCount\": 5,\r\n//   \"mediumCount\": 5,\r\n//   \"hardCount\": 5,\r\n//   \"proctoringEnabled\": true,\r\n//   \"proctoringInfo\": {\r\n//     \"copyEnabled\": true,\r\n//     \"pasteEnabled\": true,\r\n//     \"cameraEnabled\": true,\r\n//     \"micEnabled\": true,\r\n//     \"faceDectionEnabled\": true,\r\n//     \"faceMisMatchEnabled\": true,\r\n//     \"faceMisMatchTolerence\": 0,\r\n//     \"tabSwitchEnabled\": true,\r\n//     \"tabSwitchCountTolerence\": 0,\r\n//     \"startWithFullScreen\": true,\r\n//     \"aadharVerification\": true,\r\n//     \"mobileOtpVerification\": true,\r\n//     \"emailOtpVerification\": true,\r\n//     \"geoLocationEnabled\": true,\r\n//     \"extensionsDetectionEnabled\": true\r\n//   },\r\n//   \"timeZone\": \"IND\",\r\n//   \"showReport\": false,\r\n//   \"instructions\": \"role based assesment instructions\",\r\n//   \"timePerQuestionEnabled\": true,\r\n//   \"showHint\": true,\r\n//   \"showCalculator\": true\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/admin/dashboard/updateRoleAssessment",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "admin",
+            "dashboard",
+            "updateRoleAssessment"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "listAssessments",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NjQ0OGM0NDVhZjhkYWRjY2VkODg2NjgiLCJvdHBWZXJpZmllZCI6dHJ1ZSwicm9sZSI6InN1cGVyQWRtaW4iLCJleHAiOjE3ODEyNDkxMzQsImp0aSI6IjliZWYzNDFhLWY5MTItNDE3Ny1iM2U5LTA0MGUwYzgyODViZSJ9.A83UFlYUCHLFIOIv9B-K5vuKf_O9Nfq3Q5Jbzg-2en8",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"start\": \"70\",\r\n    \"limit\": \"10\",\r\n    \"value\": \"\",\r\n    \"assessmentType\": \"roleBased\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/admin/dashboard/listAssessments",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "admin",
+            "dashboard",
+            "listAssessments"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Generate Assessment AI",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NjQ0OGM0NDVhZjhkYWRjY2VkODg2NjgiLCJvdHBWZXJpZmllZCI6dHJ1ZSwicm9sZSI6InN1cGVyQWRtaW4iLCJleHAiOjE3Nzg3MzIxMjAsImp0aSI6IjVkOTliMGFiLWI2ZDUtNGUzNy1iYzFmLTQ4ZmQ3Y2ZlMGRjYyJ9.UlEqYV4G7xkjXWw_EkWChqS6htRhl8HqfrjNveCOWH4",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://globalapi.skillwallet.digital/educator/dashboard/generate-role-assessments",
+          "protocol": "https",
+          "host": [
+            "globalapi",
+            "skillwallet",
+            "digital"
+          ],
+          "path": [
+            "educator",
+            "dashboard",
+            "generate-role-assessments"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "fetchRoleAssessmentLeaderboard",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NjQ0OGM0NDVhZjhkYWRjY2VkODg2NjgiLCJvdHBWZXJpZmllZCI6dHJ1ZSwicm9sZSI6InN1cGVyQWRtaW4iLCJleHAiOjE3Nzg5MTA2MTUsImp0aSI6ImIxODE4YWE3LTY1ZTMtNGE1YS04ODI3LWRhZmU1MjFkMzg0MiJ9.IFCcVirM3r_ZB8-As0c5rnkIIUvPAi78hVIhV8v48yw",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"roleId\":\"69c3db65ec7619a45a9e63bc\"\r\n    // \"assessmentId\":\"6a040c0fd48757df3fd9e78b\"\r\n    \r\n    \r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/admin/dashboard/fetchRoleAssessmentLeaderboard",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "admin",
+            "dashboard",
+            "fetchRoleAssessmentLeaderboard"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "insert  role assessment",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2YTE5Mjg2Yjc0OTVhZDdlN2I5NjlmMmYiLCJyb2xlIjoic21lIiwiaXNNZmEiOmZhbHNlLCJpc3RmYSI6ZmFsc2UsIm90cFZlcmlmaWVkIjp0cnVlLCJ0eXBlIjoiY2xhc3NpZmllZCIsImNvbXBhbnlOYW1lIjoiU01BUlQgU1RBUlQiLCJpc1NXU3VwZXJBZG1pbiI6ZmFsc2UsInNvcnRuYW1lIjoic21hcnRzdGFydCIsImlzVW5pdmVyc2l0eSI6ZmFsc2UsImlzVGZhVmVyaWZpZWQiOnRydWUsImlzTWZhVmVyaWZpZWQiOnRydWUsInRlbmFudFR5cGUiOiJjb21wYW55IiwicGVybWlzc2lvbnMiOlt7InNlcnZpY2UiOiJjb250ZW50X2NvdXJzZV9jcmVhdGlvbiIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJsYWJzX2xhYl9jcmVhdGlvbiIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJjb250ZW50X3F1ZXN0aW9uX2JhbmsiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoicHJvamVjdHNfY3JlYXRpb24iLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoicHJlcF9iYW5rIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImFpX3ByZXBhcmF0aW9uc19pbnRlcnZpZXdfcHJhY3RpY2UiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYWlfcHJlcGFyYXRpb25zX2ludGVydmlld2VyX3BlcmZvcm0iLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYmxvZ3MiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiZGFzaGJvYXJkIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImFpX2NyZWF0ZV9jb3Vyc2UiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiY291cnNlX2luZm8iLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYWlfY3JlYXRlX2xhYiIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJsYWJzX2luZm8iLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoiYWlfY3JlYXRlX3Byb2plY3QiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoicHJvamVjdF9pbmZvIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImFpX3Byb2plY3RfaWRlYXMiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoiYnJvd3NlX3JvbGVzIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6InNsaWRlc19idWlsZGVyIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImFjdGl2aXR5X2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoiY2Fwc3RvbmVfYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJsYWJfYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJraWJvX2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoicmVjX2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoicXVlc3RfYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJ2eWJlX2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoiZGF0YV9zdG9yeV9idWlsZGVyIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImFpX3F1ZXN0aW9uX2JhbmsiLCJhY3Rpb25zIjpbIlJFQUQiXX1dLCJleHAiOjE3ODA0MDMwNzMsImp0aSI6ImQ2N2E5OWE1LTliMzQtNDUzNC05MTM0LTFhYWNiMmIxNGQ0MSJ9.S8blqRXgRq_vEPZ9EKPNctwjSlnn3fvZ_GxiwFAB5CY",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"data\": {\r\n        \"title\": \"Full Stack Developer(Java) Assessment\",\r\n        \"category\": \"roleBased\",\r\n        \"duration\": 30,\r\n        \"currency\": \"INR\",\r\n        \"amount\": 0,\r\n        \"status\": \"active\",\r\n        \"certificateTag\": \"\",\r\n        \"startDate\": \"\",\r\n        \"endDate\": \"\",\r\n        \"subscriptionType\": \"free\",\r\n        \"credits\": \"10\",\r\n        \"modeOfPayment\": \"free\",\r\n        \"showInSkillBank\": true,\r\n        \"level\": \"easy\",\r\n        \"assessmentId\": \"\",\r\n        \"workspaceId\": \"\",\r\n        \"retakeAmount\": \"0\",\r\n        \"passingPercentage\": 50,\r\n        \"description\": \"Created using questions from existing banks: 1 source(s)\",\r\n        \"skills\": [\r\n            {\r\n                \"name\": \"Java\"\r\n            },\r\n            {\r\n                \"name\": \"Spring Boot\"\r\n            },\r\n            {\r\n                \"name\": \"React\"\r\n            },\r\n            {\r\n                \"name\": \"RESTful API Development\"\r\n            },\r\n            {\r\n                \"name\": \"MySQL\"\r\n            },\r\n            {\r\n                \"name\": \"JavaScript\"\r\n            },\r\n            {\r\n                \"name\": \"Hibernate\"\r\n            },\r\n            {\r\n                \"name\": \"Microservices architecture\"\r\n            },\r\n            {\r\n                \"name\": \"Docker\"\r\n            },\r\n            {\r\n                \"name\": \"Git\"\r\n            },\r\n            {\r\n                \"name\": \"Junit\"\r\n            },\r\n            {\r\n                \"name\": \"Spring Security\"\r\n            },\r\n            {\r\n                \"name\": \"Problem-solving\"\r\n            },\r\n            {\r\n                \"name\": \"Agile/Scrum methodology\"\r\n            },\r\n            {\r\n                \"name\": \"Communication skills\"\r\n            }\r\n        ],\r\n        \"skillId\": \"\",\r\n        \"type\": \"roleBased\",\r\n        \"isCloned\": false,\r\n        \"clonedTo\": \"\",\r\n        \"totalMarks\": 0,\r\n        \"trovenAssessmentSortname\": \"\",\r\n        \"experience\": \"explorer\",\r\n        \"easyMarks\": 1,\r\n        \"mediumMarks\": 2,\r\n        \"hardMarks\": 3,\r\n        \"expertMarks\": 4,\r\n        \"bluePrintConfig\": {\r\n            \"apply\": 0,\r\n            \"create\": 0,\r\n            \"remember\": 0,\r\n            \"analyze\": 0,\r\n            \"evaluate\": 0,\r\n            \"understand\": 0\r\n        },\r\n        \"easyCount\": 0,\r\n        \"mediumCount\": 0,\r\n        \"hardCount\": 0,\r\n        \"expertCount\": 0,\r\n        \"proctoringEnabled\": false,\r\n        \"proctoringInfo\": {\r\n            \"copyEnabled\": false,\r\n            \"pasteEnabled\": false,\r\n            \"cameraEnabled\": false,\r\n            \"micEnabled\": false,\r\n            \"faceDectionEnabled\": false,\r\n            \"faceMisMatchEnabled\": false,\r\n            \"faceMisMatchTolerence\": 0,\r\n            \"tabSwitchEnabled\": false,\r\n            \"tabSwitchCountTolerence\": 0,\r\n            \"startWithFullScreen\": false,\r\n            \"aadharVerification\": false,\r\n            \"mobileOtpVerification\": false,\r\n            \"emailOtpVerification\": false,\r\n            \"geoLocationEnabled\": false,\r\n            \"extensionsDetectionEnabled\": false,\r\n            \"screenRecording\": false,\r\n            \"rightClickEnabled\": false,\r\n            \"printScreenEnabled\": false\r\n        },\r\n        \"timeZone\": \"IST\",\r\n        \"showReport\": true,\r\n        \"instructions\": \"\",\r\n        \"timePerQuestionEnabled\": false,\r\n        \"showHint\": false,\r\n        \"showCalculator\": false,\r\n        \"randomizeQuestion\": true,\r\n        \"randomizeOptions\": true,\r\n        \"allowedIpAddresses\": [],\r\n        \"entryAllowedTime\": \"\",\r\n        \"resultReleaseDate\": \"\",\r\n        \"markingScheme\": \"difficultyLevel\",\r\n        \"questionPoolSize\": 0,\r\n        \"questionBankId\": [\r\n            \"6a1d79cdb2e2912c873f1cb0\"\r\n        ],\r\n        \"roleId\": \"6a0c3883c01a1d62211e527d\",\r\n        \"assessmentTitle\": \"Full Stack Developer(Java) Assessment\",\r\n        \"assessmentDescription\": \"Created using questions from existing banks: 1 source(s)\",\r\n        \"durationMinutes\": 30\r\n        \r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/educator/dashboard/insert-role-assessments",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "educator",
+            "dashboard",
+            "insert-role-assessments"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "list Assessment in skill bank at student side",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NzBmNTFjZWJhZDhhZWQxMzFjYWViYTUiLCJpc3VzZXJWZXJpZmllZCI6dHJ1ZSwiaXNBdXRoZW50aWNhdGlvbiI6ZmFsc2UsImV2ZW50cyI6ImxvZ2luIiwiaXNFZHVjYXRpb24iOmZhbHNlLCJpc0V4cGVyaWVuY2UiOmZhbHNlLCJpc1NraWxscyI6dHJ1ZSwicm9sZSI6IlN0dWRlbnQiLCJlbWFpbCI6InZpa2FzQHRoZXNtYXJ0YnJpZGdlLmNvbSIsIndvcmtTdGF0dXMiOiJleHBlcmllbmNlZCIsImlzQWFkaGFyVmVyaWZpY2F0aW9uIjpmYWxzZSwiaXNGb3Jnb3RWZXJpZmllZCI6ZmFsc2UsImlzTW9iaWxlVmVyaWZpZWQiOnRydWUsImlzRW1haWxWZXJpZmllZCI6dHJ1ZSwiaXNMb2dnZWRJbiI6dHJ1ZSwiaXNPbmJvYXJkIjp0cnVlLCJpc0ludGVybmF0aW9uYWwiOmZhbHNlLCJpc1NraWxsQ2FyZCI6ZmFsc2UsImlzTGlua2VkSW5Db25uZWN0IjpmYWxzZSwiaXNHaXRodWJDb25uZWN0Ijp0cnVlLCJ3YWxsZXRBY3RpdmVkIjp0cnVlLCJjb3VudHJ5IjoiSW5kaWEiLCJpcEFkZHJlc3MiOiIxODMuODIuMTE4Ljc5IiwiZXhwIjoxNzc4OTExODczLCJqdGkiOiJkMjUwNTIwMC03MDIxLTQxMjAtYjIwNC03NWMxYTYxMWFiMmUifQ.T1aBrXQtr-VLLUU1lVDgAknqB9SfmRiMHbncWkbWVqw",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"roleId\":\"69c3db65ec7619a45a9e63bc\",\r\n    \"limit\":10,\r\n    \"page\":1\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/global/seeker/dashboard/rolebased/getRoleBasedAssessments",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "global",
+            "seeker",
+            "dashboard",
+            "rolebased",
+            "getRoleBasedAssessments"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Initialize API to get Exam Token",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NzBmNTFjZWJhZDhhZWQxMzFjYWViYTUiLCJpc3VzZXJWZXJpZmllZCI6dHJ1ZSwiaXNBdXRoZW50aWNhdGlvbiI6ZmFsc2UsImV2ZW50cyI6ImxvZ2luIiwiaXNFZHVjYXRpb24iOmZhbHNlLCJpc0V4cGVyaWVuY2UiOmZhbHNlLCJpc1NraWxscyI6dHJ1ZSwicm9sZSI6IlN0dWRlbnQiLCJlbWFpbCI6InZpa2FzQHRoZXNtYXJ0YnJpZGdlLmNvbSIsIndvcmtTdGF0dXMiOiJleHBlcmllbmNlZCIsImlzQWFkaGFyVmVyaWZpY2F0aW9uIjpmYWxzZSwiaXNGb3Jnb3RWZXJpZmllZCI6ZmFsc2UsImlzTW9iaWxlVmVyaWZpZWQiOnRydWUsImlzRW1haWxWZXJpZmllZCI6dHJ1ZSwiaXNMb2dnZWRJbiI6dHJ1ZSwiaXNPbmJvYXJkIjp0cnVlLCJpc0ludGVybmF0aW9uYWwiOmZhbHNlLCJpc1NraWxsQ2FyZCI6dHJ1ZSwiaXNMaW5rZWRJbkNvbm5lY3QiOmZhbHNlLCJpc0dpdGh1YkNvbm5lY3QiOnRydWUsIndhbGxldEFjdGl2ZWQiOnRydWUsImNvdW50cnkiOiJJbmRpYSIsImlwQWRkcmVzcyI6IjE3Mi42OC4xNjYuMTUxIiwiZXhwIjoxNzgxNjcyNzk5LCJqdGkiOiI1YTI3Yzg3Ny1iN2ZmLTRmOWQtYmFlZC1lMTU4YmE3NzBlMTcifQ.VWrPctYb9gyi5574g2qQlxIm79-S4Hi07fLE8EkIY0c",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"value\":\"6a2f9cdc12d2c0ba5ef34bf9\",\r\n    \"moduleId\":\"6a2fc5fa5ebe9edb5403a3c2\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/global/seeker/dashboard/rolebased/initiateRoleExam",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "global",
+            "seeker",
+            "dashboard",
+            "rolebased",
+            "initiateRoleExam"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get assessment data for exam",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzBmNTFjZWJhZDhhZWQxMzFjYWViYTUiLCJzdWIiOiI2NzBmNTFjZWJhZDhhZWQxMzFjYWViYTUiLCJhc3Nlc3NtZW50SWQiOiI2YTFlOGJkZmVhNTZkOGY4OWQ0MDliNGMiLCJhdHRlbXB0IjoxMSwiZXhwIjoxNzgxNTE1NDk0LCJqdGkiOiJjYjlkYzViNi0wODcxLTRkMjEtYmFhZS0wZWQxMWY4ODJjNmUifQ.OsjDpsfWd8doAgS5zsIY2lmvHQX4pctp80VZ5KTqZtE",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/global/seeker/dashboard/rolebased/fetchAssessmentDataForExam",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "global",
+            "seeker",
+            "dashboard",
+            "rolebased",
+            "fetchAssessmentDataForExam"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Submit a answer fro role assessment",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzBmNTFjZWJhZDhhZWQxMzFjYWViYTUiLCJzdWIiOiI2NzBmNTFjZWJhZDhhZWQxMzFjYWViYTUiLCJhc3Nlc3NtZW50SWQiOiI2YTJmOTY4MDY1YmEyYTBkOTJmNjhlNGIiLCJhdHRlbXB0IjozLCJleHAiOjE3ODE1MjA5ODksImp0aSI6IjcxNGYyY2E4LTM0YjktNDg0NS1hNDdhLWNhNTIzMDc4MWMwYiJ9.LSVGPJkn0hOzrACnwqOUDHybyUp5Gn6LpEGh941MkBA",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"questionId\": \"6a2f962f65ba2a0d92f68e48\",\r\n    \"selectedOptions\": [\r\n        {\r\n            \"option\": \"Actionable, enabling informed decisions and automated responses.\"\r\n        }\r\n    ],\r\n    \"visited\": true\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/global/seeker/dashboard/rolebased/eachAnswerSubmission",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "global",
+            "seeker",
+            "dashboard",
+            "rolebased",
+            "eachAnswerSubmission"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Complete submission role exam",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzBmNTFjZWJhZDhhZWQxMzFjYWViYTUiLCJzdWIiOiI2NzBmNTFjZWJhZDhhZWQxMzFjYWViYTUiLCJhc3Nlc3NtZW50SWQiOiI2YTFlOGJkZmVhNTZkOGY4OWQ0MDliNGMiLCJhdHRlbXB0IjoxLCJleHAiOjE3ODA0MDEzMjcsImp0aSI6IjVhNzllOWExLTBhMGMtNGJkZS05ZGU2LTY1OWUxODY4ZDEyNyJ9.0s8jRyjtkruTdtpnPganxaG7cBUsFnG809-Pd5iYzDs",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"attempt\":1,\r\n    \"assessmentId\":\"6a040c0fd48757df3fd9e78b\"\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/global/seeker/dashboard/rolebased/submitRoleExam",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "global",
+            "seeker",
+            "dashboard",
+            "rolebased",
+            "submitRoleExam"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "generate -feature-image",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NmQ2YjRhYWMzMzUwYTA3MjgzNzg0OGYiLCJyb2xlIjoic21lIiwiaXNNZmEiOmZhbHNlLCJpc3RmYSI6ZmFsc2UsIm90cFZlcmlmaWVkIjp0cnVlLCJ0eXBlIjoiY2xhc3NpZmllZCIsImNvbXBhbnlOYW1lIjpudWxsLCJpc1NXU3VwZXJBZG1pbiI6ZmFsc2UsInNvcnRuYW1lIjoieHl6IiwiaXNVbml2ZXJzaXR5IjpmYWxzZSwiaXNUZmFWZXJpZmllZCI6dHJ1ZSwiaXNNZmFWZXJpZmllZCI6dHJ1ZSwidGVuYW50VHlwZSI6ImNvbXBhbnkiLCJwZXJtaXNzaW9ucyI6W3sic2VydmljZSI6ImNvbnRlbnRfY291cnNlX2NyZWF0aW9uIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImxhYnNfbGFiX2NyZWF0aW9uIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImNvbnRlbnRfcXVlc3Rpb25fYmFuayIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJwcm9qZWN0c19jcmVhdGlvbiIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJwcmVwX2JhbmsiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYWlfcHJlcGFyYXRpb25zX2ludGVydmlld19wcmFjdGljZSIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJhaV9wcmVwYXJhdGlvbnNfaW50ZXJ2aWV3ZXJfcGVyZm9ybSIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJibG9ncyIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJkYXNoYm9hcmQiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYWlfY3JlYXRlX2NvdXJzZSIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJjb3Vyc2VfaW5mbyIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJhaV9jcmVhdGVfbGFiIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImxhYnNfaW5mbyIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJhaV9jcmVhdGVfcHJvamVjdCIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJwcm9qZWN0X2luZm8iLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoiYWlfcHJvamVjdF9pZGVhcyIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJicm93c2Vfcm9sZXMiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoic2xpZGVzX2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoiYWN0aXZpdHlfYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJjYXBzdG9uZV9idWlsZGVyIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImxhYl9idWlsZGVyIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImtpYm9fYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJyZWNfYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJxdWVzdF9idWlsZGVyIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6InZ5YmVfYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJkYXRhX3N0b3J5X2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX1dLCJleHAiOjE3ODAwNDQ0NzQsImp0aSI6IjM2NTlmM2JkLTdhOWMtNDcxMC04M2Q5LWZmMTNkYWY3OTM5MyJ9.qB8bQ1x-vjOOa4Zxoq00Xv8x7yCn67NYaW3-n1bHOls",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Mastering FastAPI Development\",\r\n    \"domain\": \"FastAPI Developer\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/admin/dashboard/generate_feature_image",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "admin",
+            "dashboard",
+            "generate_feature_image"
+          ],
+          "query": [
+            {
+              "key": "filePath",
+              "value": "docs/folder/Splitwise-main/Splitwise",
+              "disabled": true
+            },
+            {
+              "key": "repoName",
+              "value": "delivers-repo",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "generateRoleBasedlab",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NzUwMWFjNTFlNjQwY2IzNWE5ZDI1MWQiLCJyb2xlIjoic21lIiwiaXNNZmEiOmZhbHNlLCJpc3RmYSI6ZmFsc2UsIm90cFZlcmlmaWVkIjp0cnVlLCJ0eXBlIjoiY2xhc3NpZmllZCIsImNvbXBhbnlOYW1lIjpudWxsLCJpc1NXU3VwZXJBZG1pbiI6ZmFsc2UsInNvcnRuYW1lIjoic21hcnRicmlkZ2UiLCJpc1RmYVZlcmlmaWVkIjp0cnVlLCJpc01mYVZlcmlmaWVkIjp0cnVlLCJ0ZW5hbnRUeXBlIjoiY29tcGFueSIsInBlcm1pc3Npb25zIjpbeyJzZXJ2aWNlIjoiY29udGVudF9jb3Vyc2VfY3JlYXRpb24iLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoibGFic19sYWJfY3JlYXRpb24iLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiY29udGVudF9xdWVzdGlvbl9iYW5rIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6InByb2plY3RzX2NyZWF0aW9uIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6InByZXBfYmFuayIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJhaV9wcmVwYXJhdGlvbnNfaW50ZXJ2aWV3X3ByYWN0aWNlIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImFpX3ByZXBhcmF0aW9uc19pbnRlcnZpZXdlcl9wZXJmb3JtIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImJsb2dzIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImRhc2hib2FyZCIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJhaV9jcmVhdGVfY291cnNlIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImNvdXJzZV9pbmZvIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImFpX2NyZWF0ZV9sYWIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoibGFic19pbmZvIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImFpX2NyZWF0ZV9wcm9qZWN0IiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6InByb2plY3RfaW5mbyIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJhaV9wcm9qZWN0X2lkZWFzIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImJyb3dzZV9yb2xlcyIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJzbGlkZXNfYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJhY3Rpdml0eV9idWlsZGVyIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImNhcHN0b25lX2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoibGFiX2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoia2lib19idWlsZGVyIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6InJlY19idWlsZGVyIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6InF1ZXN0X2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoidnliZV9idWlsZGVyIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImRhdGFfc3RvcnlfYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJhaV9xdWVzdGlvbl9iYW5rIiwiYWN0aW9ucyI6WyJSRUFEIl19XSwiZXhwIjoxNzgxNjAzOTMyLCJqdGkiOiIwNTMwN2UxZS1lMGJkLTQyNDktODBkOC1iNjEyMTFkMmZhMTYifQ.E7BirY6aFZuAeKzC6efjKJ5icBxOwc4lOU9NFTYzjWY",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"role_id\": \"69c3dec6a71c6a31138a01cb\",\r\n    \"sortname\": \"smartbridge\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/admin/dashboard/generateRoleBasedlab",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "admin",
+            "dashboard",
+            "generateRoleBasedlab"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "getLabReviewByCandidate",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NzBmNTFjZWJhZDhhZWQxMzFjYWViYTUiLCJpc3VzZXJWZXJpZmllZCI6dHJ1ZSwiaXNBdXRoZW50aWNhdGlvbiI6ZmFsc2UsImV2ZW50cyI6ImxvZ2luIiwiaXNFZHVjYXRpb24iOmZhbHNlLCJpc0V4cGVyaWVuY2UiOmZhbHNlLCJpc1NraWxscyI6dHJ1ZSwicm9sZSI6InN0dWRlbnQiLCJlbWFpbCI6InZpa2FzQHRoZXNtYXJ0YnJpZGdlLmNvbSIsIndvcmtTdGF0dXMiOiJleHBlcmllbmNlZCIsImlzQWFkaGFyVmVyaWZpY2F0aW9uIjpmYWxzZSwiaXNGb3Jnb3RWZXJpZmllZCI6ZmFsc2UsImlzTW9iaWxlVmVyaWZpZWQiOnRydWUsImlzRW1haWxWZXJpZmllZCI6dHJ1ZSwiaXNMb2dnZWRJbiI6dHJ1ZSwiaXNPbmJvYXJkIjp0cnVlLCJpc0ludGVybmF0aW9uYWwiOmZhbHNlLCJpc1NraWxsQ2FyZCI6ZmFsc2UsImlzTGlua2VkSW5Db25uZWN0IjpmYWxzZSwiaXNHaXRodWJDb25uZWN0Ijp0cnVlLCJ3YWxsZXRBY3RpdmVkIjp0cnVlLCJjb3VudHJ5IjoiSW5kaWEiLCJpcEFkZHJlc3MiOiIxODMuODIuMTE4Ljc5Iiwic3Vic2NyaXB0aW9uX3BsYW4iOmZhbHNlLCJleHAiOjE3ODAwMzMyMTMsImp0aSI6ImYzMDYyM2Q3LTczNWMtNDgxZC1hNzAyLTBkYWRlNTVhYjI1OCJ9.mWRQup1BuzV2R4HxoPOcsclknrvQzOUNnMuswrsR6W0",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"role_id\":\"6a0c3883c01a1d62211e527d\",\"sortname\":\"xyz\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/global/seeker/dashboard/getLabReviewByCandidate?submissionId=6a17da2e2caadae4427ad159",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "global",
+            "seeker",
+            "dashboard",
+            "getLabReviewByCandidate"
+          ],
+          "query": [
+            {
+              "key": "submissionId",
+              "value": "6a17da2e2caadae4427ad159",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "assssment by roel",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "publishRoleAssessment",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2YTE5Mjg2Yjc0OTVhZDdlN2I5NjlmMmYiLCJyb2xlIjoic21lIiwiaXNNZmEiOmZhbHNlLCJpc3RmYSI6ZmFsc2UsIm90cFZlcmlmaWVkIjp0cnVlLCJ0eXBlIjoiY2xhc3NpZmllZCIsImNvbXBhbnlOYW1lIjoiU01BUlQgU1RBUlQiLCJpc1NXU3VwZXJBZG1pbiI6ZmFsc2UsInNvcnRuYW1lIjoic21hcnRzdGFydCIsImlzVW5pdmVyc2l0eSI6ZmFsc2UsImlzVGZhVmVyaWZpZWQiOnRydWUsImlzTWZhVmVyaWZpZWQiOnRydWUsInRlbmFudFR5cGUiOiJjb21wYW55IiwicGVybWlzc2lvbnMiOlt7InNlcnZpY2UiOiJjb250ZW50X2NvdXJzZV9jcmVhdGlvbiIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJsYWJzX2xhYl9jcmVhdGlvbiIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJjb250ZW50X3F1ZXN0aW9uX2JhbmsiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoicHJvamVjdHNfY3JlYXRpb24iLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoicHJlcF9iYW5rIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImFpX3ByZXBhcmF0aW9uc19pbnRlcnZpZXdfcHJhY3RpY2UiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYWlfcHJlcGFyYXRpb25zX2ludGVydmlld2VyX3BlcmZvcm0iLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYmxvZ3MiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiZGFzaGJvYXJkIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImFpX2NyZWF0ZV9jb3Vyc2UiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiY291cnNlX2luZm8iLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYWlfY3JlYXRlX2xhYiIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJsYWJzX2luZm8iLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoiYWlfY3JlYXRlX3Byb2plY3QiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoicHJvamVjdF9pbmZvIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImFpX3Byb2plY3RfaWRlYXMiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoiYnJvd3NlX3JvbGVzIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6InNsaWRlc19idWlsZGVyIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImFjdGl2aXR5X2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoiY2Fwc3RvbmVfYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJsYWJfYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJraWJvX2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoicmVjX2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoicXVlc3RfYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJ2eWJlX2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoiZGF0YV9zdG9yeV9idWlsZGVyIiwiYWN0aW9ucyI6WyJSRUFEIl19XSwiZXhwIjoxNzgwMzc5NzgwLCJqdGkiOiI1OTAxODNiZC00YTUyLTQ4ODMtOGQwYy05ZWM5NmFjNGZhZjQifQ.QdzmZepEz1QWYrZhbZJgUwpTmi8-05_TAhtDFRYaGuo",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":\"6a1d23f63d50c026c5042881\",\r\n\"tenantSuperAdminPublish\":\"published\"\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/admin/dashboard/publishRoleAssessment",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "admin",
+            "dashboard",
+            "publishRoleAssessment"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "modules for roles",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NmQ4NGFiNmQ2YWMzYmNlNzZmMzUyNDMiLCJyb2xlIjoic21lIiwiaXNNZmEiOmZhbHNlLCJpc3RmYSI6ZmFsc2UsIm90cFZlcmlmaWVkIjp0cnVlLCJ0eXBlIjoiY2xhc3NpZmllZCIsImNvbXBhbnlOYW1lIjpudWxsLCJpc1NXU3VwZXJBZG1pbiI6ZmFsc2UsInNvcnRuYW1lIjoic21hcnRzdGFydCIsImlzVW5pdmVyc2l0eSI6ZmFsc2UsImlzVGZhVmVyaWZpZWQiOnRydWUsImlzTWZhVmVyaWZpZWQiOnRydWUsInRlbmFudFR5cGUiOiJjb21wYW55IiwicGVybWlzc2lvbnMiOlt7InNlcnZpY2UiOiJjb250ZW50X2NvdXJzZV9jcmVhdGlvbiIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJsYWJzX2xhYl9jcmVhdGlvbiIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJjb250ZW50X3F1ZXN0aW9uX2JhbmsiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoicHJvamVjdHNfY3JlYXRpb24iLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoicHJlcF9iYW5rIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImFpX3ByZXBhcmF0aW9uc19pbnRlcnZpZXdfcHJhY3RpY2UiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYWlfcHJlcGFyYXRpb25zX2ludGVydmlld2VyX3BlcmZvcm0iLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYmxvZ3MiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiZGFzaGJvYXJkIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImFpX2NyZWF0ZV9jb3Vyc2UiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiY291cnNlX2luZm8iLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYWlfY3JlYXRlX2xhYiIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJsYWJzX2luZm8iLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoiYWlfY3JlYXRlX3Byb2plY3QiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoicHJvamVjdF9pbmZvIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImFpX3Byb2plY3RfaWRlYXMiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoiYnJvd3NlX3JvbGVzIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6InNsaWRlc19idWlsZGVyIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImFjdGl2aXR5X2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoiY2Fwc3RvbmVfYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJsYWJfYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJraWJvX2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoicmVjX2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoicXVlc3RfYnVpbGRlciIsImFjdGlvbnMiOlsiUkVBRCJdfSx7InNlcnZpY2UiOiJ2eWJlX2J1aWxkZXIiLCJhY3Rpb25zIjpbIlJFQUQiXX0seyJzZXJ2aWNlIjoiZGF0YV9zdG9yeV9idWlsZGVyIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6ImFpX3F1ZXN0aW9uX2JhbmsiLCJhY3Rpb25zIjpbIlJFQUQiXX1dLCJleHAiOjE3ODA0MDc1MDEsImp0aSI6ImY1YzE2NGNlLWVjZjQtNDRhNi04YzQ4LWQ0ZWI3MzFhZDFlNyJ9.0uEMPWbLOU4FrGGGuJQuz97ku-U3xOdh72s8_hWTAuU",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"data\": {\r\n        \"title\": \"Full Stack Developer(Java) Assessment\",\r\n        \"category\": \"roleBased\",\r\n        \"duration\": 30,\r\n        \"currency\": \"INR\",\r\n        \"amount\": 0,\r\n        \"status\": \"active\",\r\n        \"certificateTag\": \"\",\r\n        \"startDate\": \"\",\r\n        \"endDate\": \"\",\r\n        \"subscriptionType\": \"free\",\r\n        \"credits\": \"10\",\r\n        \"modeOfPayment\": \"free\",\r\n        \"showInSkillBank\": true,\r\n        \"level\": \"easy\",\r\n        \"assessmentId\": \"\",\r\n        \"workspaceId\": \"\",\r\n        \"retakeAmount\": \"0\",\r\n        \"passingPercentage\": 50,\r\n        \"description\": \"Created using questions from existing banks: 1 source(s)\",\r\n        \"skills\": [\r\n            {\r\n                \"name\": \"Java\"\r\n            },\r\n            {\r\n                \"name\": \"Spring Boot\"\r\n            },\r\n            {\r\n                \"name\": \"React\"\r\n            },\r\n            {\r\n                \"name\": \"RESTful API Development\"\r\n            },\r\n            {\r\n                \"name\": \"MySQL\"\r\n            },\r\n            {\r\n                \"name\": \"JavaScript\"\r\n            },\r\n            {\r\n                \"name\": \"Hibernate\"\r\n            },\r\n            {\r\n                \"name\": \"Microservices architecture\"\r\n            },\r\n            {\r\n                \"name\": \"Docker\"\r\n            },\r\n            {\r\n                \"name\": \"Git\"\r\n            },\r\n            {\r\n                \"name\": \"Junit\"\r\n            },\r\n            {\r\n                \"name\": \"Spring Security\"\r\n            },\r\n            {\r\n                \"name\": \"Problem-solving\"\r\n            },\r\n            {\r\n                \"name\": \"Agile/Scrum methodology\"\r\n            },\r\n            {\r\n                \"name\": \"Communication skills\"\r\n            }\r\n        ],\r\n        \"skillId\": \"\",\r\n        \"type\": \"roleBased\",\r\n        \"isCloned\": false,\r\n        \"clonedTo\": \"\",\r\n        \"totalMarks\": 0,\r\n        \"trovenAssessmentSortname\": \"\",\r\n        \"experience\": \"explorer\",\r\n        \"easyMarks\": 1,\r\n        \"mediumMarks\": 2,\r\n        \"hardMarks\": 3,\r\n        \"expertMarks\": 4,\r\n        \"bluePrintConfig\": {\r\n            \"apply\": 0,\r\n            \"create\": 0,\r\n            \"remember\": 0,\r\n            \"analyze\": 0,\r\n            \"evaluate\": 0,\r\n            \"understand\": 0\r\n        },\r\n        \"easyCount\": 0,\r\n        \"mediumCount\": 0,\r\n        \"hardCount\": 0,\r\n        \"expertCount\": 0,\r\n        \"proctoringEnabled\": false,\r\n        \"proctoringInfo\": {\r\n            \"copyEnabled\": false,\r\n            \"pasteEnabled\": false,\r\n            \"cameraEnabled\": false,\r\n            \"micEnabled\": false,\r\n            \"faceDectionEnabled\": false,\r\n            \"faceMisMatchEnabled\": false,\r\n            \"faceMisMatchTolerence\": 0,\r\n            \"tabSwitchEnabled\": false,\r\n            \"tabSwitchCountTolerence\": 0,\r\n            \"startWithFullScreen\": false,\r\n            \"aadharVerification\": false,\r\n            \"mobileOtpVerification\": false,\r\n            \"emailOtpVerification\": false,\r\n            \"geoLocationEnabled\": false,\r\n            \"extensionsDetectionEnabled\": false,\r\n            \"screenRecording\": false,\r\n            \"rightClickEnabled\": false,\r\n            \"printScreenEnabled\": false\r\n        },\r\n        \"timeZone\": \"IST\",\r\n        \"showReport\": true,\r\n        \"instructions\": \"\",\r\n        \"timePerQuestionEnabled\": false,\r\n        \"showHint\": false,\r\n        \"showCalculator\": false,\r\n        \"randomizeQuestion\": true,\r\n        \"randomizeOptions\": true,\r\n        \"allowedIpAddresses\": [],\r\n        \"entryAllowedTime\": \"\",\r\n        \"resultReleaseDate\": \"\",\r\n        \"markingScheme\": \"difficultyLevel\",\r\n        \"questionPoolSize\": 0,\r\n        \"questionBankId\": [\r\n            \"6a1d79cdb2e2912c873f1cb0\"\r\n        ],\r\n        \"roleId\": \"6a0c3883c01a1d62211e527d\",\r\n        \"assessmentTitle\": \"Full Stack Developer(Java) Assessment\",\r\n        \"assessmentDescription\": \"Created using questions from existing banks: 1 source(s)\",\r\n        \"durationMinutes\": 30\r\n        \r\n    }\r\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/admin/dashboard/modules-for-role?type=project&roleId=6a0d822840a1db05ee022815",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "admin",
+            "dashboard",
+            "modules-for-role"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "project"
+            },
+            {
+              "key": "roleId",
+              "value": "6a0d822840a1db05ee022815"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "exam report",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NzBmNTFjZWJhZDhhZWQxMzFjYWViYTUiLCJpc3VzZXJWZXJpZmllZCI6dHJ1ZSwiaXNBdXRoZW50aWNhdGlvbiI6ZmFsc2UsImV2ZW50cyI6ImxvZ2luIiwiaXNFZHVjYXRpb24iOmZhbHNlLCJpc0V4cGVyaWVuY2UiOmZhbHNlLCJpc1NraWxscyI6dHJ1ZSwicm9sZSI6InN0dWRlbnQiLCJlbWFpbCI6InZpa2FzQHRoZXNtYXJ0YnJpZGdlLmNvbSIsIndvcmtTdGF0dXMiOiJzdHVkZW50IiwiaXNBYWRoYXJWZXJpZmljYXRpb24iOmZhbHNlLCJpc0ZvcmdvdFZlcmlmaWVkIjpmYWxzZSwiaXNNb2JpbGVWZXJpZmllZCI6dHJ1ZSwiaXNFbWFpbFZlcmlmaWVkIjp0cnVlLCJpc0xvZ2dlZEluIjp0cnVlLCJpc09uYm9hcmQiOnRydWUsImlzSW50ZXJuYXRpb25hbCI6ZmFsc2UsImlzU2tpbGxDYXJkIjpmYWxzZSwiaXNMaW5rZWRJbkNvbm5lY3QiOmZhbHNlLCJpc0dpdGh1YkNvbm5lY3QiOnRydWUsIndhbGxldEFjdGl2ZWQiOnRydWUsImNvdW50cnkiOiJJbmRpYSIsImlwQWRkcmVzcyI6IjE3Mi42OC4xNjYuMTc4Iiwic3Vic2NyaXB0aW9uX3BsYW4iOnRydWUsImV4cCI6MTc4MTU4NTEyNCwianRpIjoiMzYzNDY4OGItZDE0NC00MDI2LWIzYmEtY2Y5ZTg1NjU0ZmM4In0.Csej3rb7vCscar17yzeUo8b7D6-n21LRhIqwumGI2mA",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "http://localhost:8080/global/seeker/dashboard/getExamreportAttemptWise?assessmentd=6a2f968065ba2a0d92f68e4b&attempt=3",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "global",
+            "seeker",
+            "dashboard",
+            "getExamreportAttemptWise"
+          ],
+          "query": [
+            {
+              "key": "assessmentd",
+              "value": "6a2f968065ba2a0d92f68e4b"
+            },
+            {
+              "key": "attempt",
+              "value": "3"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "getModuleDataByTypeForStudent",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NzgwZWRhM2ZlMGM1Y2Y0YzA4YzJhN2UiLCJpc3VzZXJWZXJpZmllZCI6dHJ1ZSwiaXNBdXRoZW50aWNhdGlvbiI6ZmFsc2UsImV2ZW50cyI6ImxvZ2luIiwiaXNFZHVjYXRpb24iOnRydWUsImlzRXhwZXJpZW5jZSI6dHJ1ZSwiaXNTa2lsbHMiOnRydWUsInJvbGUiOiJzdHVkZW50IiwiZW1haWwiOiJ2aWthcy5yZWRzZWNvcHNAZ21haWwuY29tIiwid29ya1N0YXR1cyI6ImV4cGVyaWVuY2VkIiwiaXNBYWRoYXJWZXJpZmljYXRpb24iOmZhbHNlLCJpc0ZvcmdvdFZlcmlmaWVkIjpmYWxzZSwiaXNNb2JpbGVWZXJpZmllZCI6dHJ1ZSwiaXNFbWFpbFZlcmlmaWVkIjp0cnVlLCJpc0xvZ2dlZEluIjp0cnVlLCJpc09uYm9hcmQiOnRydWUsImlzSW50ZXJuYXRpb25hbCI6ZmFsc2UsImlzU2tpbGxDYXJkIjpmYWxzZSwiaXNMaW5rZWRJbkNvbm5lY3QiOmZhbHNlLCJpc0dpdGh1YkNvbm5lY3QiOmZhbHNlLCJ3YWxsZXRBY3RpdmVkIjp0cnVlLCJjb3VudHJ5IjoiSW5kaWEiLCJpcEFkZHJlc3MiOiIxODMuODIuMTE4Ljc5Iiwic3Vic2NyaXB0aW9uX3BsYW4iOmZhbHNlLCJleHAiOjE3ODA5OTU4NzcsImp0aSI6ImYwYWJkODdlLTliNDUtNDE1Mi05YmUwLTJmYTliZTc5NmQ3MCJ9.lDau8vhmXD1xJVK2LbvYgaOAMg-rwq-sLGxnVnyeFpI",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"id\": \"6a1d31813dbc13558d7e640b\",\r\n    \"type\": \"groupProjects\",\r\n    \"candidateId\": null\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/global/seeker/dashboard/getModuleDataByTypeForStudent",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "global",
+            "seeker",
+            "dashboard",
+            "getModuleDataByTypeForStudent"
+          ],
+          "query": [
+            {
+              "key": "filePath",
+              "value": "docs/folder/Splitwise-main/Splitwise",
+              "disabled": true
+            },
+            {
+              "key": "repoName",
+              "value": "delivers-repo",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "delete- deliverable",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NzBmNTFjZWJhZDhhZWQxMzFjYWViYTUiLCJpc3VzZXJWZXJpZmllZCI6dHJ1ZSwiaXNBdXRoZW50aWNhdGlvbiI6ZmFsc2UsImV2ZW50cyI6ImxvZ2luIiwiaXNFZHVjYXRpb24iOmZhbHNlLCJpc0V4cGVyaWVuY2UiOmZhbHNlLCJpc1NraWxscyI6dHJ1ZSwicm9sZSI6InN0dWRlbnQiLCJlbWFpbCI6InZpa2FzQHRoZXNtYXJ0YnJpZGdlLmNvbSIsIndvcmtTdGF0dXMiOiJzdHVkZW50IiwiaXNBYWRoYXJWZXJpZmljYXRpb24iOmZhbHNlLCJpc0ZvcmdvdFZlcmlmaWVkIjpmYWxzZSwiaXNNb2JpbGVWZXJpZmllZCI6dHJ1ZSwiaXNFbWFpbFZlcmlmaWVkIjp0cnVlLCJpc0xvZ2dlZEluIjp0cnVlLCJpc09uYm9hcmQiOnRydWUsImlzSW50ZXJuYXRpb25hbCI6ZmFsc2UsImlzU2tpbGxDYXJkIjpmYWxzZSwiaXNMaW5rZWRJbkNvbm5lY3QiOmZhbHNlLCJpc0dpdGh1YkNvbm5lY3QiOnRydWUsIndhbGxldEFjdGl2ZWQiOnRydWUsImNvdW50cnkiOiJJbmRpYSIsImlwQWRkcmVzcyI6IjE4My44Mi4xMTguNzkiLCJzdWJzY3JpcHRpb25fcGxhbiI6dHJ1ZSwiZXhwIjoxNzgwOTg0MDM3LCJqdGkiOiI1NTZjZDE3Ny02NzM1LTQ2MzMtOWFhOS1jYWJmMmQ3YTc4NzkifQ.2Kv6iw-F31LghXiQcOU2yZCLqoGDzfMkNfBwaUC39GY",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n\"id\":\"6a26578e4f58c64891ed4885\",\r\n\"candidateId\":\"6a2657a44f58c64891ed4889\"\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/global/seeker/dashboard/delete-deliverable",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "global",
+            "seeker",
+            "dashboard",
+            "delete-deliverable"
+          ],
+          "query": [
+            {
+              "key": "filePath",
+              "value": "docs/folder/Splitwise-main/Splitwise",
+              "disabled": true
+            },
+            {
+              "key": "repoName",
+              "value": "delivers-repo",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "createBatchForMenEval",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NmQ4NDcyYWZlMWFmYTMzNzBkZWNlNzciLCJyb2xlIjoic3VwZXJBZG1pbiIsImlzTWZhIjpmYWxzZSwiaXN0ZmEiOmZhbHNlLCJvdHBWZXJpZmllZCI6dHJ1ZSwidHlwZSI6ImNsYXNzaWZpZWQiLCJjb21wYW55TmFtZSI6IlNNQVJUIFNUQVJUIiwiaXNTV1N1cGVyQWRtaW4iOmZhbHNlLCJzb3J0bmFtZSI6InNtYXJ0c3RhcnQiLCJpc1VuaXZlcnNpdHkiOmZhbHNlLCJpc1RmYVZlcmlmaWVkIjp0cnVlLCJpc01mYVZlcmlmaWVkIjp0cnVlLCJ0ZW5hbnRUeXBlIjoiY29tcGFueSIsInBlcm1pc3Npb25zIjpbeyJzZXJ2aWNlIjoiZGFzaGJvYXJkIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6InByZXBfYmFuayIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJpbnNpZ2h0cyIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJ1c2VyX21hbmFnZW1lbnQiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYXV0aG9yIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImludGVncmF0aW9ucyIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJjb250ZW50c19jb3Vyc2VzIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImNvbnRlbnRzX2xhYnMiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiY29udGVudHNfbW9kdWxlIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6InByb2plY3QiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYXNzZXNzbWVudHMiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYmF0Y2hlcyIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJhc3NpZ25fYmF0Y2giLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYXNzaWduX2V2YWx1YXRvciIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJ1bmFzc2lnbl9iYXRjaCIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJjYW1wYWlnbnMiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiZW1haWxfY2FtcGFpZ24iLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoibm90aWZpY2F0aW9uX2NhbXBhaWduIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6ImNlcnRpZmljYXRlX3RlbXBsYXRlIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6InNraWxsX21vZHVsZSIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJlbWFpbF90ZW1wbGF0ZSIsImFjdGlvbnMiOlsiQ1JFQVRFIiwiUkVBRCIsIlVQREFURSIsIkRFTEVURSJdfSx7InNlcnZpY2UiOiJub3RpZmljYXRpb25fdGVtcGxhdGUiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYWRkX2V2YWx1YXRpb25fdGVtcGxhdGUiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiZXZhbHVhdGlvbl9waGFzZXMiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiZXZhbHVhdGlvbl9tZXRyaWNzIiwiYWN0aW9ucyI6WyJDUkVBVEUiLCJSRUFEIiwiVVBEQVRFIiwiREVMRVRFIl19LHsic2VydmljZSI6InN1cHBvcnQiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoiYmxvZ3MiLCJhY3Rpb25zIjpbIkNSRUFURSIsIlJFQUQiLCJVUERBVEUiLCJERUxFVEUiXX0seyJzZXJ2aWNlIjoicHJlcF9tb2R1bGVzIiwiYWN0aW9ucyI6WyJSRUFEIl19LHsic2VydmljZSI6InJvbGVfbW9kdWxlcyIsImFjdGlvbnMiOlsiUkVBRCJdfV0sImV4cCI6MTc4MDk4MTkyMiwianRpIjoiMjVhNTFjMGQtMWQxZC00NjQxLTgxMzEtYzg3NzhjMTBhZTg5In0.F7qz_F0D4q-YLm3UPJhIQapCCcdHq50c6AZ1jDbYV8c",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"type\":\"rolepath\",\"moduleId\":\"6a23ec271d1e00dd993784b8\",\"maxLimit\":20}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/admin/dashboard/createBatchForMenEval",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "admin",
+            "dashboard",
+            "createBatchForMenEval"
+          ],
+          "query": [
+            {
+              "key": "filePath",
+              "value": "docs/folder/Splitwise-main/Splitwise",
+              "disabled": true
+            },
+            {
+              "key": "repoName",
+              "value": "delivers-repo",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "admin/dashboard/createRole",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NjQ0OGM0NDVhZjhkYWRjY2VkODg2NjgiLCJvdHBWZXJpZmllZCI6dHJ1ZSwicm9sZSI6InN1cGVyQWRtaW4iLCJleHAiOjE3ODEwNjc2MjAsImp0aSI6IjBjNDg3ZjhlLTJhOGQtNDBmOC04MDAyLTg3ZDA0MTY2NzJkNSJ9.H9D9byDeUeF5yuu907KvkEa8nUANjPbw6YK7yopQCho",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Frontend Developer\",\r\n    \"domain\": \"Engineering\",\r\n    \"experience\": \"explorer\",\r\n    \"description\": \"As an Explorer Frontend Developer, you will implement user interfaces for web applications, translating design mockups into functional, interactive experiences. You will apply fundamental knowledge of HTML, CSS, and JavaScript, contributing to the visual and interactive aspects of our products under the guidance of senior engineers. This role is pivotal for developing core frontend engineering skills and delivering engaging user experiences.\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/admin/dashboard/createRole",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "admin",
+            "dashboard",
+            "createRole"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "generate WPS in projects",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/admin/dashboard/generate-wbs",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "admin",
+            "dashboard",
+            "generate-wbs"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
